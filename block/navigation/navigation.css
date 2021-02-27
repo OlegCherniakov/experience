@@ -1,0 +1,33 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: #DADADA;
+    width: 100%;
+}
+.navigation__block {
+    display: flex;
+        width: 45%;
+    margin: 14px auto;
+}
+.navigation__menu {
+    display: flex;
+    flex-direction: row;
+}
+.navigation__menu--list {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Roboto Condensed';
+    margin: 0 49px;
+}
+.navigation__menu--list:first-child {
+margin-left: 0;
+}
+.navigation__menu--list:last-child {
+    margin-right: 0;
+}
+.navigation__menu--list-about {
+    color: black;
+    white-space: nowrap;
+}

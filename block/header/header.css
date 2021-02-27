@@ -1,0 +1,6 @@
+@import url("header__header/header__header.css");
+
+.header {
+    width: 100%;
+    background-image: url(../header/img/Rectangle.jpg);
+}

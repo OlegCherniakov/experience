@@ -1,0 +1,64 @@
+.header__header {
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11px;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+.header__header-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.header__header-contact--list {
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+.header__header-logo {
+}
+.header__header-logo--img {
+}
+.header__header-phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.header__header-phone--title {
+    margin-bottom: 12px;
+}
+.header__header-phone--text {
+    font-weight: 300;
+font-style: italic;
+font-size: 14px;
+line-height: 16,41px;
+text-align: right;
+}
+.header__header-phone--phone {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.header__header-phone--text-span {
+    color: red;
+}

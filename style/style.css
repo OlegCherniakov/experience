@@ -1,4 +1,5 @@
-@import url("zeroing.css");
+@import url("../block/navigation/navigation.css");
+@import url("../block/header/header.css");
 
 body {
     background-color: F7F9FB;
@@ -11,7 +12,7 @@ body {
     padding: 0;
     margin-right: auto;
     margin-left: auto;
-    max-width: 1440px;
+    max-width: 1939px;
     min-width: 320px;
     box-sizing: border-box;
     -moz-osx-font-smoothing: grayscale;  
