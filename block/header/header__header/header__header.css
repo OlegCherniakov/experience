@@ -25,9 +25,9 @@
     text-align: left;
     color: #ffffff;
 }
-.header__header-logo {
-}
+
 .header__header-logo--img {
+    max-width: 100%;
 }
 .header__header-phone {
     display: flex;
@@ -47,10 +47,10 @@
 }
 .header__header-phone--text {
     font-weight: 300;
-font-style: italic;
-font-size: 14px;
-line-height: 16,41px;
-text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16, 41px;
+    text-align: right;
 }
 .header__header-phone--phone {
     color: #ffffff;

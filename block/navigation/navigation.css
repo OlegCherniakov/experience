@@ -1,12 +1,11 @@
 .navigation {
     display: flex;
     flex-direction: row;
-    background-color: #DADADA;
+    background-color: #dadada;
     width: 100%;
 }
 .navigation__block {
     display: flex;
-        width: 45%;
     margin: 14px auto;
 }
 .navigation__menu {
@@ -18,11 +17,11 @@
     font-style: normal;
     font-size: 18px;
     line-height: 21px;
-    font-family: 'Roboto Condensed';
+    font-family: "Roboto Condensed";
     margin: 0 49px;
 }
 .navigation__menu--list:first-child {
-margin-left: 0;
+    margin-left: 0;
 }
 .navigation__menu--list:last-child {
     margin-right: 0;
