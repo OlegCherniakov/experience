@@ -1,0 +1,96 @@
+.header__specification {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+}
+.header__specification--tile {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.header__specification--subtile {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 85px;
+}
+.header__specification--about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.header__specification--about-ad {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 125px;
+}
+.header__specification--about-ad:first-child {
+    margin-left: 0;
+}
+.header__specification--about-ad--img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+}
+.header__specification--about-ad--text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.header__specification--call {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    
+}
+.header__specification--call-button {
+    margin-left: 142px;
+    background-color: #dcc96c;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 25px 30px;
+}
+.header__specification--call-button:first-child {
+    margin-left: 0;
+    color: #000000;
+}
+.header__specification--call-button:last-child {
+    background-image: none;
+    background-color: transparent;
+    border: 2px solid #dcc96c;
+    box-sizing: border-box;
+    color: #dcc96c;
+}
+.header__specification--switch {
+    margin-top: 75px;
+    margin-bottom: 61px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__specification--switch-button {
+    width: 18px;
+    height: 10px;
+    background-color: #FFFFFF;
+    border-radius: 500px;
+    margin-left: 12px;
+}
+.header__specification--switch-button:first-child {
+    background-color: #DCC96C;
+    margin-left: 0;
+}

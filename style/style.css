@@ -16,4 +16,5 @@ body {
     min-width: 320px;
     box-sizing: border-box;
     -moz-osx-font-smoothing: grayscale;  
+    font-family: "Roboto Condensed";
 }
