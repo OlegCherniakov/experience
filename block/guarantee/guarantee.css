@@ -19,7 +19,8 @@
 .guarantee__description--blocks {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 8.375rem;
+    grid-column-gap: 8.375rem;
+    grid-row-gap: 1.875rem;
 }
 .guarantee__description--blocks-block {
     display: flex;
@@ -57,4 +58,5 @@
     letter-spacing: 0em;
     text-align: center;
     text-decoration: underline;
+    color: black;
 }
