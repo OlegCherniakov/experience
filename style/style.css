@@ -2,6 +2,8 @@
 @import url("../block/header/header.css");
 @import url("../block/guarantee/guarantee.css");
 @import url("../block/main/main.css");
+@import url("../block/interesting/interesting.css");
+@import url(../block/equipment/equipment.css);
 
 body {
     background-color: F7F9FB;

@@ -1,0 +1,50 @@
+.interesting {
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
+    width: calc(100% - 20.375rem);
+    margin-left: auto;
+    margin-right: auto;
+}
+.interesting__title {
+    font-size: 2.25rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.interesting__blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+.interesting__blocks-img {
+    width: 345px;
+    margin-left: 70px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.5);
+}
+.interesting__blocks-img::before {
+    border-radius: 10px;
+}
+.interesting__blocks-img:first-child {
+    background-image: url(../interesting/img/Rectangle.png);
+    margin-left: 0;
+}
+.interesting__blocks-img:nth-child(2) {
+    background-image: url(../interesting/img/Шкафы.png);
+}
+.interesting__blocks-img:nth-child(3) {
+    background-image: url(../interesting/img/Библиотеки.png);
+}
+.interesting__blocks-img:nth-child(4) {
+    background-image: url(../interesting/img/Кабинеты.png);
+}
+.interesting__blocks-text {
+    text-align: center;
+    margin: 106px auto 43px auto;
+}

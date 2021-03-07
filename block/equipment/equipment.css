@@ -1,0 +1,23 @@
+.equipment {
+    display: flex;
+    flex-direction: column;
+}
+
+.equipment__blocks {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 5.625rem;
+  padding-top: 65px;
+}
+.equipment__blocks--block {
+    
+}
+.equipment__blocks--block-img {
+    border-radius: 100px;
+}
+
+.equipment__blocks--block-text {
+    font-weight: 400;
+    font-size: 1.375rem;
+    line-height: 33.26px;
+}

@@ -1,15 +1,17 @@
 .main {
     display: flex;
     flex-direction: column;
-    width: calc(100% - 326px);
+    width: calc(100% - 20.375rem);
     margin: 0 auto;
 }
-
+.main__title {
+    margin-bottom: 0;
+}
 .main__article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 73px;
+    margin-top: 4.5625rem;
 }
 .main__article--img {
     display: flex;
