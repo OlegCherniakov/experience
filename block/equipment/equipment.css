@@ -5,12 +5,11 @@
 
 .equipment__blocks {
     display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 5.625rem;
-  padding-top: 65px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 5.625rem;
+    padding-top: 65px;
 }
 .equipment__blocks--block {
-    
 }
 .equipment__blocks--block-img {
     border-radius: 100px;
