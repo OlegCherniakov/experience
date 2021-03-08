@@ -4,6 +4,7 @@
 @import url("../block/main/main.css");
 @import url("../block/interesting/interesting.css");
 @import url(../block/equipment/equipment.css);
+@import url(../block/about/about.css);
 
 body {
     background-color: F7F9FB;
