@@ -1,0 +1,59 @@
+.examples {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/фон.png);
+}
+
+.examples__blocks {
+    display: flex;
+    flex-direction: initial;
+}
+.examples__blocks--block {
+    display: flex;
+    flex-direction: column;
+}
+
+.examples__blocks--block-img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 592px;
+}
+.examples__blocks--block-img-main {
+}
+.examples__blocks--block-img-label {
+    position: absolute;
+}
+[data-tooltip]:nth-child(2) {
+    left: 196px;
+    bottom: 286px;
+}
+[data-tooltip]:nth-child(3) {
+    left: 230px;
+    bottom: 105px;
+}
+[data-tooltip]:nth-child(4) {
+    left: 290px;
+    bottom: 270px;
+}
+
+[data-tooltip] {
+    position: relative; /* Относительное позиционирование */ 
+   }
+   [data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 150px; /* Ширина подсказки */
+    left: 0; top: 0; /* Положение подсказки */
+    background: #3989c9; /* Синий цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 1s; /* Время появления подсказки */
+   } 
+   [data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: 3em; /* Положение подсказки */
+   }
