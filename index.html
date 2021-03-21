@@ -370,9 +370,91 @@
                     
                 </div>
             </section>
-            <p class="description__subtitle">Все фасады мы изготавливаем под заказ, <br>форма, дизайн, резные элементы, элементы декора могут быть любыми</p>
+            <p class="description__subtitle">Все фасады мы изготавливаем под заказ, <br>форма, дизайн, резные элементы, элементы декора могут быть любыми.</p>
         </aside>
+       
     </page>
 </body>
 
 </html>
+
+
+<!--всплывающая подсказка            data-tooltip="Подскажу по секрету!"-->
+<!--<div class="photo" data-title="Софийский собор"><img src="images/thumb1.jpg" alt=""></div>--> 
+<!--
+    .photo {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+   .photo:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 30%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+   }
+-->
+
+
+
+<!--
+    <!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>:hover</title>
+  <style>
+   [data-tooltip] {
+    position: relative; /* Относительное позиционирование */ 
+   }
+   [data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина подсказки */
+    left: 0; top: 0; /* Положение подсказки */
+    background: #3989c9; /* Синий цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 1s; /* Время появления подсказки */
+   } 
+   [data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: 2em; /* Положение подсказки */
+   }
+  </style>
+ </head>
+ <body>
+  <p data-tooltip="Всплывающая подсказка сообщает о чём-то многозначном и полезном...">
+   Наведи сюда курсор.</p>
+ </body>
+</html>
+-->
+
+
+
+
+
+
+
+<!-- <aside class="work-examples">
+            <h2 class="description__title">Примеры планировки прихожих</h2>
+            <div class="work-examples__examples">
+                <div class="work-examples__examples--block">
+                    <p class="description__subtitle">Планировка мини прихожей.</p>
+                    <div class="work-examples__examples--block-images">
+                        <img src="block/work-examples/img/мини_прихожая.png" alt="Мини прихожая" class="work-examples__examples--block-images-img">
+                        <img src="block/work-examples/img/Заметка.png" alt="курсор" data-tooltip="Подскажу по секрету!" class="work-examples__examples--block-images-img--note">
+                        <img src="block/work-examples/img/Заметка.png" alt="курсор" data-tooltip="Подскажу по секрету! Никому не говори!" class="work-examples__examples--block-images-img--note">
+                        <img src="block/work-examples/img/Заметка.png" alt="курсор" data-tooltip="Подскажу по секрету! Подскажу по секрету! Никому не говори!" class="work-examples__examples--block-images-img--note">
+                    </div>
+                </div>
+            </div>
+            
+        </aside>-->

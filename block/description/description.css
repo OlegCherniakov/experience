@@ -40,6 +40,9 @@
     position: relative;
     margin-left: 31px;
 }
+.description__blocks--imges:first-child {
+    margin-left: 0%;
+}
 .description__blocks--imges-img {
     width: 100%;
 }
@@ -50,14 +53,15 @@
     left: 30px;
     bottom: 30px;
 }
+.description__blocks--imges-text:hover {
+    color: #DCC96C;
+}
 .description__subtitle {
-    
-font-size: 30px;
+    font-size: 30px;
 
-font-weight: 300;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: center;
-
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 /*разобраться с позиционированием*/
