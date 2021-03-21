@@ -2,6 +2,8 @@
     width: calc(100% - 17%);
     margin-left: auto;
     margin-right: auto;
+    margin-top: 113px;
+
     display: flex;
     flex-direction: column;
 }
@@ -12,30 +14,34 @@
     letter-spacing: 0em;
     text-align: center;
     color: #000000;
+    margin-bottom: 79px;
 }
 .description__blocks {
     display: flex;
     flex-direction: column;
 }
-.description__blocks--title {    
-font-size: 30px;
-font-weight: 300;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: center;
-color: #787777;
-}
-.description__blocks--imges {
-    max-width: 290px;
+.description__blocks--blocks {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.description__blocks--title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #787777;
+    margin-bottom: 25px;
+}
+.description__blocks--imges {
     position: relative;
-    margin: 20px;
+    margin-left: 31px;
 }
 .description__blocks--imges-img {
     width: 100%;
-  
 }
 
 .description__blocks--imges-text {
@@ -43,6 +49,15 @@ color: #787777;
     position: absolute;
     left: 30px;
     bottom: 30px;
-    color: chartreuse;
+}
+.description__subtitle {
+    
+font-size: 30px;
+
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+
 }
 /*разобраться с позиционированием*/
